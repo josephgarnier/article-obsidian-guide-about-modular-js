@@ -12,5 +12,5 @@ This repository provide :
 - The *english* and *french* versions of the article, in markdown format.
 - A *demo obsidian vault* with all the source code presented in the article. It also contains a single page `01-Articles/Demo.md` providing additional informations to the article.
 - *Two bonus JavaScript modules* not presented in the original article and available in the vault :
-  - The first module can be found in the `03-Files/scripts_module_common/` folder and contains **JavaScript utility classes** for interacting with any plugins installed and the Obsidian vault. They are intended to be called by other modules.
-  - A second module is located in the `03-Files/scripts_module_widget/` folder and contains **Widgets classes** which are also intended to be called from any other modules.
+  - The first module can be found in the `03-Files/scripts_module_common/` folder and contains some *JavaScript utility classes* for interacting with any plugins installed and the Obsidian vault. They are intended to be called by other modules.
+  - A second module is located in the `03-Files/scripts_module_widget/` folder and contains some *Widgets classes* which are also intended to be called from any other modules.
