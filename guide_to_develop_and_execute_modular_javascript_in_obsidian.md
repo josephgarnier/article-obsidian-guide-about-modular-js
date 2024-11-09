@@ -120,7 +120,7 @@ The **approach to outsourcing code** is as follows:
 
 1. In Obsidian, create a sub-folder for the JavaScript files. For example, in my case it's `03-Files/scripts_customjs`, next to my other assets.
 
-    ![folder_hierarchy](images/folder_hierarchy.png)
+    ![folder_hierarchy](images/folder-hierarchy.png)
 
 2. In the Obsidian options, go to the CustomJS configuration parameters.
 
@@ -233,7 +233,7 @@ The **macros** are all located in the single folder configured in customJS:
 
 **Modules** are grouped by business area in folders next to the macros folder. For example:
 
-![folder_modules](images/folder_modules.png)
+![folder_modules](images/folder-modules.png)
 
 The **script import and export** is done using the [import/export mechanism](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) provided by the JavaScript API. Except that where the simple keywords `export/import` or `require` are sufficient in pure JavaScript, the permissiveness of the customJS plugin means that you have to use a roundabout method that we will see later.
 

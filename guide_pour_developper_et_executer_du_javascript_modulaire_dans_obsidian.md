@@ -120,7 +120,7 @@ La **démarche pour externaliser du code** est la suivante :
 
 1. Dans Obsidian, créer un sous-dossier destiné à accueillir les fichiers JavaScript. Par exemple dans mon cas il s'agit de `03-Files/scripts_customjs`, à coté de mes autres assets.
 
-    ![folder_hierarchy](images/folder_hierarchy.png)
+    ![folder_hierarchy](images/folder-hierarchy.png)
 
 2. Dans les options d'Obsidian, aller dans les paramètres de configuration CustomJS.
 
@@ -235,7 +235,7 @@ Les **macros** sont toutes situées dans l'unique dossier configuré dans custom
 
 Quant aux **modules**, ils sont regroupés par domaine métier dans des dossiers situés à côté de celui des macros. Par exemple :
 
-![folder_modules](images/folder_modules.png)
+![folder_modules](images/folder-modules.png)
 
 L'**import et l'export de script** se fait au moyen du [mécanise d'import/export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) fourni par l'API JavaScript. Sauf que là où les simples mots-clés `export/import` ou `require` suffisent en pure JavaScript, la permissivité du plugin customJS implique d'utiliser un méthode détournée que nous verrons plus loin.
 
