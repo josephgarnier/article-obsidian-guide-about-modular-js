@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "9ad7a64c16b03836",
+    "type": "split",
+    "children": [
+      {
+        "id": "60223fb4f43cdc1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1636d60a49326cf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Articles/Demo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Demo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "57ed86b77211c9ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "6bcc431e2f65a0be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd0d0a9c08080634",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2f8cd76229bd4009",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "639771f51cbaf643",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01-Articles/Demo.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Demo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5255f5579f582f56",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {}
+  },
+  "active": "1636d60a49326cf6",
+  "lastOpenFiles": [
+    "03-Files/scripts_customjs/macro-tags-of-page.js",
+    "03-Files/scripts_customjs/macro-tags-without-tag-page.js",
+    "01-Articles/Demo.md",
+    "03-Files/scripts_customjs/my-script-with-import.js",
+    "03-Files/scripts_customjs/my-script copy.js",
+    "09-Archives",
+    "08-Help",
+    "07-User",
+    "06-Special",
+    "05-Templates/Source",
+    "05-Templates",
+    "04-Tags",
+    "Welcome.md",
+    "01-Articles/Welcome.md"
+  ]
+}

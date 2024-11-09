@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+    "jsx": "react",
+    "allowImportingTsExtensions": true,
+    "checkJs": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "baseUrl": ".",
+    "paths": {
+      "obsidian": ["../../../../../.nvm/versions/node/v20.13.1/lib/node_modules/obsidian/obsidian.d.ts"],
+      "moment": ["../../../../../.nvm/versions/node/v20.13.1/lib/node_modules/moment/moment.d.ts"],
+      "luxon": ["../../../../../.nvm/versions/node/v20.13.1/lib/node_modules/@types/luxon/index.d.ts"],
+      "custom-js": ["../.obsidian/plugins/customjs/types.d.ts"],
+      "module-config": ["scripts_module_common/config.js"],
+      "module-constants": ["scripts_module/constants.js"],
+      "module-utility": ["scripts_module_common/utility.js"],
+      "module-utility-file-system": ["scripts_module_common/utility-file-system.js"],
+      "module-utility-linter": ["scripts_module_common/utility-linter.js"],
+      "module-utility-modal-form": ["scripts_module_common/utility-modal-form.js"],
+      "module-utility-obsidian": ["scripts_module_common/utility-obsidian.js"],
+      "module-utility-tag-wrangler": ["scripts_module_common/utility-tag-wrangler.js"],
+      "module-utility-templater": ["scripts_module_common/utility-templater.js"],
+      "module-widget-file-picker": ["scripts_module_widget/file-picker.js"],
+      "module-widget-date-picker": ["scripts_module_widget/date-picker.js"],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ]
+}

@@ -1,0 +1,62 @@
+div.macro-tags-of-page {
+  --line-height-medium: 1.5714285;
+  --background-color-neutral-subtle: #f8f9fa;
+  --color-base: #202122;
+  --border-color-base: #a2a9b1;
+  --color-progressive: #36c;
+  --color-progressive--hover: #447ff5;
+  --color-visited: #6b4ba1;
+
+  /* Remove theme style */
+  box-sizing: unset;
+
+  /* New style */
+  line-height: var(--line-height-medium);
+  background: var(--background-color-neutral-subtle);
+  font-family: sans-serif;
+  color: var(--color-base);
+  caret-color: var(--color-base);
+  border: 1px solid var(--border-color-base);
+  margin-top: 1em;
+  padding: 5px;
+  clear: both;
+
+  ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    > li {
+      display: inline;
+      line-height: 1.25em;
+      margin: 0.125em 0;
+      border-left: 1px solid var(--border-color-base);
+      padding: 0 0.5em;
+    }
+    > li:first-child {
+      border-left: 0;
+      padding-left: 0.25em;
+    }
+  }
+  a {
+    color: var(--color-progressive);
+    font-weight: inherit;
+    border-radius: 2px;
+    text-decoration: none;
+    &:hover {
+      color: var(--color-progressive--hover);
+      text-decoration: underline;
+    }
+    &:visited {
+      color: var(--color-visited);
+    }
+  }
+  a.tag {
+    background: unset;
+    border: unset;
+    font-size: unset;
+    padding: unset;
+    line-height: unset;
+  }
+}
