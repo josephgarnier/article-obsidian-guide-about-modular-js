@@ -214,6 +214,8 @@ La procédure à suivre pour **configurer l'environnement de développement** es
     }
     ```
 
+    **Note :** Le fichier `types.d.ts` de `custom-js` doit être téléchargé depuis de le dépôt de CustomJS depuis [ce lien](https://github.com/saml-dev/obsidian-custom-js/blob/master/types.d.ts).
+
 5. Dans le variable `obsidian`, vérifier que le chemin pointe bien vers la définition des types du package NodeJS d'Obsidian.
 
 Vous devriez à présent avoir l'auto-complétion lors des développements de scripts. Dans la suite du guide nous reviendrons modifier ce fichier pour y ajouter nos scripts de manière à avoir l'auto-complétion sur nos propres classes.
