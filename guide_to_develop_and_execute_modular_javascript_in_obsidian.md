@@ -212,7 +212,9 @@ The procedure for **configuring the development environment** is as follows:
     }
     ```
 
-5. In the `obsidian` variable, check that the path points to the type definition in the Obsidian NodeJS package.
+    **Note :** The file `types.d.ts` for `custom-js` has to be download from the repository of CustomJS from [this link](https://github.com/saml-dev/obsidian-custom-js/blob/master/types.d.ts).
+
+6. In the `obsidian` variable, check that the path points to the type definition in the Obsidian NodeJS package.
 
 You should now have auto-completion when developing scripts. In the rest of the guide, we'll be coming back to modify this file to add our scripts in order to have auto-completion on our own classes.
 
